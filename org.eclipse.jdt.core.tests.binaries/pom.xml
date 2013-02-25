@@ -14,11 +14,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>eclipse.jdt.core.binaries</artifactId>
-    <groupId>eclipse.jdt.core.binaries</groupId>
+    <artifactId>eclipse-platform-parent</artifactId>
+    <groupId>org.eclipse.jdt</groupId>
     <version>3.8.0-SNAPSHOT</version>
+    <relativePath>../eclipse-platform-parent</relativePath>
   </parent>
-  <groupId>eclipse.jdt.core.binaries</groupId>
+  <groupId>org.eclipse.jdt</groupId>
   <artifactId>org.eclipse.jdt.core.tests.binaries</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
