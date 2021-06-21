@@ -6,3 +6,4 @@ Bundle-Version: 1.0.200.qualifier
 Bundle-Vendor: %providerName
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.jdt.core.tests.binaries
