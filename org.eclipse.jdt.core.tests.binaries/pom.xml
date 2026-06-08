@@ -19,5 +19,9 @@
   <groupId>org.eclipse.jdt</groupId>
   <artifactId>org.eclipse.jdt.core.tests.binaries</artifactId>
   <version>1.1.100-SNAPSHOT</version>
-  <packaging>eclipse-test-plugin</packaging>
+  <packaging>eclipse-plugin</packaging>
+  <properties>
+    <!-- This bundle is not published and therefore not in the baseline. -->
+    <version.baseline.check.skip>true</version.baseline.check.skip>
+  </properties>
 </project>
